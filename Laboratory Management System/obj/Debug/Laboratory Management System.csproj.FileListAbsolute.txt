@@ -24,4 +24,3 @@ c:\users\user\source\repos\Laboratory Management System\Laboratory Management Sy
 c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\UI\UserRegisterPatient.baml
 c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\UI\UserPatientView.g.cs
 c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\UI\UserPatientView.baml
-C:\Users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\Laboratory Management System.csprojResolveAssemblyReference.cache
