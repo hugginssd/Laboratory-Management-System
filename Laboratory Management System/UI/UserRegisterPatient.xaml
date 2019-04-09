@@ -5,8 +5,33 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Laboratory_Management_System.UI"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             Background="White" Height="690" Width="1285">
     <Grid>
-            
+        <Label Content="Register Patient" Foreground="White" VerticalContentAlignment="Center"  HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-3.816,0" Width="1285" Height="95" Background="#FF428BCA" FontFamily="Humanst521 BT" FontSize="28"/>
+        <Label Content="Report Master ID" FontSize="14" FontFamily="Humanst521 BT" FontWeight="Bold" HorizontalAlignment="Left" Margin="32,130,0,0" VerticalAlignment="Top" Width="158"/>
+        <Label Content="Patient Name" FontSize="14" FontFamily="Humanst521 BT" FontWeight="Bold" HorizontalAlignment="Left" Margin="360,130,0,0" VerticalAlignment="Top" Width="158"/>
+        <TextBox Name="TxtReportMasterID" HorizontalAlignment="Left" VerticalContentAlignment="Center" IsEnabled="False" FontFamily="Humanst521 BT" FontSize="17" Height="35" Margin="32,168,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="243"/>
+        <TextBox Name="TxtPatientName" HorizontalAlignment="Left" VerticalContentAlignment="Center" IsEnabled="False" FontFamily="Humanst521 BT" FontSize="17" Height="35" Margin="360,168,0,0" TextWrapping="Wrap" Text="Khan Umri" VerticalAlignment="Top" Width="245"/>
+        <ListView HorizontalAlignment="Left" Height="440" Margin="32,225,0,0" VerticalAlignment="Top" Width="1228">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="200" Header="Test Name"/>
+                    <GridViewColumn Width="250" Header="Test Code"/>
+                    <GridViewColumn Width="250" Header="Parameter Name"/>
+                    <GridViewColumn Width="250" Header="Lower Bound"/>
+                    <GridViewColumn Width="250" Header="Result Value"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="BtnPrintReport" Content="Print Report" HorizontalAlignment="Left" Margin="1158,168,0,0" VerticalAlignment="Top" Height="35" Width="100">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FF428BCA" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
     </Grid>
 </UserControl>

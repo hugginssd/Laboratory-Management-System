@@ -27,12 +27,11 @@
         <TextBox x:Name="TxtRate" Background="#F4F4F4" VerticalContentAlignment="Center" IsEnabled="True" HorizontalAlignment="Left" Height="40" Margin="981,290,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="328" FontFamily="Humanst521 BT" FontSize="20"/>
         <Button x:Name="BtnCreate" Click="BtnCreate_Click" Foreground="#FFFFFF" Background="#428BCA" Content="CREATE" HorizontalAlignment="Left" Margin="27,889,0,0" VerticalAlignment="Top" Width="193" Height="45" FontFamily="Humanst521 BT" FontSize="20"/>
         <Button x:Name="BtnReset" Click="BtnReset_Click" Foreground="#FFFFFF" Background="#428BCA" Content="RESET" HorizontalAlignment="Left" Margin="540,889,0,0" VerticalAlignment="Top" Width="193" Height="45" FontFamily="Humanst521 BT" FontSize="20"/>
-        <Button x:Name="BtnAddParameter" Click="BtnCreate_Click" Foreground="#FFFFFF" Background="#428BCA" Content="Add Parameter" HorizontalAlignment="Left" Margin="27,495,0,0" VerticalAlignment="Top" Width="193" Height="45" FontFamily="Humanst521 BT" FontSize="20"/>
+        <Button x:Name="BtnAddParameter" Click="BtnAddParameter_OnClick" Foreground="#FFFFFF" Background="#428BCA" Content="Add Parameter" HorizontalAlignment="Left" Margin="27,495,0,0" VerticalAlignment="Top" Width="193" Height="45" FontFamily="Humanst521 BT" FontSize="20"/>
         <DataGrid HorizontalAlignment="Left" Height="280" Margin="27,570,0,0" VerticalAlignment="Top" Width="1282" Grid.Column="4">
             <ColumnDefinition MaxWidth="100">
-               
-           </ColumnDefinition>
-        </DataGrid>
 
+            </ColumnDefinition>
+        </DataGrid>
     </Grid>
 </UserControl>

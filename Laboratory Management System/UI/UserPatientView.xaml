@@ -6,8 +6,18 @@
              xmlns:local="clr-namespace:Laboratory_Management_System.UI"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
-             Background="White">
+             Background="White" Width="1400" Height="600">
     <Grid>
-            
+        <Label Content="Patient View" Foreground="White" VerticalContentAlignment="Center"  HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-3.816,0" Width="1400" Height="95" Background="#FF428BCA" FontFamily="Humanst521 BT" FontSize="26"/>
+        <ListView HorizontalAlignment="Left" Height="430" Margin="10,160,0,0" VerticalAlignment="Top" Width="990">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TextBox Name="TxtSearch" Background="#F4F4F4" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="32" Margin="12,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="863"/>
+        <Button Name="BtnSearch" Content="SEARCH" MinWidth="110"  Background="#428BCA" Foreground="White" HorizontalAlignment="Left" Margin="890,117,0,0" VerticalAlignment="Top" Width="75" Height="34"/>
+
     </Grid>
 </UserControl>

@@ -5,10 +5,30 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Laboratory_Management_System.UI"
              mc:Ignorable="d"
-             Background="White" Height="645" Width="1550">
+             Background="White" Height="800" Width="1550">
     <Grid>
         <Label Content="Create New User" Foreground="#FFFFFF" VerticalContentAlignment="Center" Background="#428BCA" Height="110" Width="1550" FontFamily="Humanst521 BT" FontSize="36" VerticalAlignment="Top"/>
-        
+        <Label Content="User Type" FontSize="19" FontFamily="Humanst521 BT" HorizontalAlignment="Left" Margin="40,145,0,0" VerticalAlignment="Top" Width="200" Height="35"/>
+        <ComboBox Height="45" MaxWidth="100" MinWidth="400" HorizontalAlignment="Left" Margin="40,189,0,0" VerticalAlignment="Top" Width="360"/>
+        <Label Content="Role Id" FontSize="19" FontFamily="Humanst521 BT" HorizontalAlignment="Left" Margin="695,145,0,0" VerticalAlignment="Top" Width="200" Height="35"/>
+        <ComboBox Height="45" MaxWidth="100" MinWidth="400" HorizontalAlignment="Left" Margin="695,189,0,0" VerticalAlignment="Top" Width="360"/>
+        <TextBox Name="TxtPassword" VerticalContentAlignment="Center" IsEnabled="False" FontSize="21" FontFamily="Humanst521 BT" HorizontalAlignment="Left" Height="40" Margin="40,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400"/>
+        <Label Content="Password" FontFamily="Humanst521 BT" FontSize="21" HorizontalAlignment="Left" Margin="40,251,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TxtUserName" VerticalContentAlignment="Center" IsEnabled="False" FontSize="21" FontFamily="Humanst521 BT" HorizontalAlignment="Left" Height="40" Margin="695,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400"/>
+        <Label Content="Username" FontFamily="Humanst521 BT" FontSize="21" HorizontalAlignment="Left" Margin="695,251,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TxtPhoneNumber" VerticalContentAlignment="Center" IsEnabled="False" FontSize="21" FontFamily="Humanst521 BT" HorizontalAlignment="Left" Height="40" Margin="40,399,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400"/>
+        <Label Content="Phone Number" FontFamily="Humanst521 BT" FontSize="21" HorizontalAlignment="Left" Margin="40,360,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TxtEmail" VerticalContentAlignment="Center" IsEnabled="False" FontSize="21" FontFamily="Humanst521 BT" HorizontalAlignment="Left" Height="40" Margin="697,399,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="400"/>
+        <Label Content="Enter email" FontFamily="Humanst521 BT" FontSize="21" HorizontalAlignment="Left" Margin="697,360,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TxtAddress" VerticalContentAlignment="Center" IsEnabled="False" FontSize="21" FontFamily="Humanst521 BT" HorizontalAlignment="Left" Height="126" Margin="40,495,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400"/>
+        <Label Content="Address" FontFamily="Humanst521 BT" FontSize="21" HorizontalAlignment="Left" Margin="40,456,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TxtMobile" VerticalContentAlignment="Center" IsEnabled="False" FontSize="21" FontFamily="Humanst521 BT" HorizontalAlignment="Left" Height="40" Margin="697,495,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="400"/>
+        <Label Content="Mobile no." FontFamily="Humanst521 BT" FontSize="21" HorizontalAlignment="Left" Margin="697,456,0,0" VerticalAlignment="Top"/>
+        <Label Content="City" FontFamily="Humanst521 BT" FontSize="21" HorizontalAlignment="Left" Margin="697,544,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="CmbCity" Height="35" MaxWidth="400" MinWidth="400" HorizontalAlignment="Left" Margin="701,586,0,0" VerticalAlignment="Top" Width="400"/>
+        <Button Name="BtnCreate" Click="BtnCreate_OnClick" Content="CREATE" Background="#428BCA" Foreground="White" FontSize="21" FontFamily="Humanst521 BT" HorizontalAlignment="Left" Margin="40,683,0,0" VerticalAlignment="Top" Width="142" Height="42"/>
+        <Button x:Name="BtnReset" Click="BtnReset_OnClick" Content="RESET" Background="#428BCA" Foreground="White" FontSize="21" FontFamily="Humanst521 BT" HorizontalAlignment="Left" Margin="701,683,0,0" VerticalAlignment="Top" Width="142" Height="42"/>
+
 
     </Grid>
 </UserControl>

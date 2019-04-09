@@ -44,5 +44,10 @@ namespace Laboratory_Management_System.UI
             CmbTestClass.SelectedItem = "";
             CmbTestUnits.SelectedItem = "";
         }
+
+        private void BtnAddParameter_OnClick(object sender, RoutedEventArgs e)
+        {
+           
+        }
     }
 }

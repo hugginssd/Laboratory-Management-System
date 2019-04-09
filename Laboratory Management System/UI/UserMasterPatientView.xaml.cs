@@ -16,23 +16,13 @@ using System.Windows.Shapes;
 namespace Laboratory_Management_System.UI
 {
     /// <summary>
-    /// Interaction logic for UserCreateUser.xaml
+    /// Interaction logic for UserMasterPatientView.xaml
     /// </summary>
-    public partial class UserCreateUser : UserControl
+    public partial class UserMasterPatientView : UserControl
     {
-        public UserCreateUser()
+        public UserMasterPatientView()
         {
             InitializeComponent();
-        }
-
-        private void BtnCreate_OnClick(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
-        private void BtnReset_OnClick(object sender, RoutedEventArgs e)
-        {
-            
         }
     }
 }

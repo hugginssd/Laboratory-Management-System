@@ -63,6 +63,9 @@
     <Compile Include="UI\UserDashboard.xaml.cs">
       <DependentUpon>UserDashboard.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UI\UserMasterPatientView.xaml.cs">
+      <DependentUpon>UserMasterPatientView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UI\UserPatientResultView.xaml.cs">
       <DependentUpon>UserPatientResultView.xaml</DependentUpon>
     </Compile>
@@ -93,6 +96,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UI\UserDashboard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\UserMasterPatientView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

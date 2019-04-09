@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="Laboratory_Management_System.UI.UserMasterPatientView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Laboratory_Management_System.UI"
+             mc:Ignorable="d" 
+             Background="White"
+             Width="1600"
+             Height="900">
+    <Grid Margin="0,0,0,-6">
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top"  Height="100" Width="1600" Background="#428BCA"  VerticalContentAlignment="Center" >
+            <Label Content="Master Patient View" FontFamily="Humanst521 BT" Foreground="#FFFFFF" FontSize="36"/>
+        </Label>
+        <Image Name="ImageProfile" Source="../Resources/facebook-no-profile-picture.jpg" Stretch="Fill" HorizontalAlignment="Left" Height="290" Margin="8,110,0,0" VerticalAlignment="Top" Width="300"/>
+
+    </Grid>
+</UserControl>

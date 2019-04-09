@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\user\source\repos\Laboratory Management System\Laboratory Management System\App.xaml
-71820506942
+8-116142214
 
-112068138816
+12-1119457726
 131569487696
-MainWindow.xaml;UI\UserCreateNewTest.xaml;UI\UserCreateUser.xaml;UI\UserDashboard.xaml;UI\UserPatientResultView.xaml;UI\UserPatientView.xaml;UI\UserRegisterPatient.xaml;
+MainWindow.xaml;UI\UserCreateNewTest.xaml;UI\UserCreateUser.xaml;UI\UserDashboard.xaml;UI\UserMasterPatientView.xaml;UI\UserPatientResultView.xaml;UI\UserPatientView.xaml;UI\UserRegisterPatient.xaml;
 
 False
 
