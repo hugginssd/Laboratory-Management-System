@@ -1,0 +1,27 @@
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\bin\Debug\Laboratory Management System.exe.config
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\bin\Debug\Laboratory Management System.exe
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\bin\Debug\Laboratory Management System.pdb
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\MainWindow.g.cs
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\App.g.cs
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\Laboratory Management System_MarkupCompile.cache
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\Laboratory Management System_MarkupCompile.lref
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\MainWindow.baml
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\Laboratory Management System.g.resources
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\Laboratory_Management_System.Properties.Resources.resources
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\Laboratory Management System.csproj.GenerateResource.cache
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\Laboratory Management System.csproj.CoreCompileInputs.cache
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\Laboratory Management System.exe
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\Laboratory Management System.pdb
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\UI\UserDashboard.baml
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\UI\UserDashboard.g.cs
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\UI\UserCreateNewTest.g.cs
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\UI\UserCreateUser.g.cs
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\UI\UserCreateNewTest.baml
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\UI\UserCreateUser.baml
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\UI\UserPatientResultView.g.cs
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\UI\UserRegisterPatient.g.cs
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\UI\UserPatientResultView.baml
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\UI\UserRegisterPatient.baml
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\UI\UserPatientView.g.cs
+c:\users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\UI\UserPatientView.baml
+C:\Users\user\source\repos\Laboratory Management System\Laboratory Management System\obj\Debug\Laboratory Management System.csprojResolveAssemblyReference.cache

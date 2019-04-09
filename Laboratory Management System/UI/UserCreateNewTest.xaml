@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="Laboratory_Management_System.UI.UserCreateNewTest"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Laboratory_Management_System.UI"
+             mc:Ignorable="d" Width="1435" Height="745"
+             Background="White">
+
+
+    <Grid>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top"  Height="100" Width="1435" Background="#428BCA"  VerticalContentAlignment="Center" >
+            <Label Content="Create New Test" FontFamily="Humanst521 BT" Foreground="#FFFFFF" FontSize="36"/>
+        </Label>
+        <Label Content="Test ID" HorizontalAlignment="Left" Margin="27,124,0,0" VerticalAlignment="Top" Width="103" FontSize="20" FontFamily="Humanst521 BT"/>
+        <TextBox x:Name="TxtTestID" VerticalContentAlignment="Center" IsEnabled="False" HorizontalAlignment="Left" Height="40" Margin="27,180,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="328" FontFamily="Humanst521 BT" FontSize="20"/>
+        <Label Content="Test Code" HorizontalAlignment="Left" Margin="27,245,0,0" VerticalAlignment="Top" Width="103" FontSize="20" FontFamily="Humanst521 BT"/>
+        <TextBox x:Name="TxtTestCode" Background="#F4F4F4" VerticalContentAlignment="Center" IsEnabled="True" HorizontalAlignment="Left" Height="40" Margin="27,290,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="328" FontFamily="Humanst521 BT" FontSize="20"/>
+        <Label Content="LBound" HorizontalAlignment="Left" Margin="27,350,0,0" VerticalAlignment="Top" Width="103" FontSize="20" FontFamily="Humanst521 BT"/>
+        <TextBox x:Name="TxtLBound" Background="#F4F4F4" VerticalContentAlignment="Center" IsEnabled="True" HorizontalAlignment="Left" Height="40" Margin="27,395,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="328" FontFamily="Humanst521 BT" FontSize="20"/>
+        <Label Content="Test Class" HorizontalAlignment="Left" Margin="540,124,0,0" VerticalAlignment="Top" Width="103" FontSize="20" FontFamily="Humanst521 BT"/>
+        <Label Content="Test Units" HorizontalAlignment="Left" Margin="540,245,0,0" VerticalAlignment="Top" Width="103" FontSize="20" FontFamily="Humanst521 BT"/>
+        <Label Content="UBound" HorizontalAlignment="Left" Margin="540,350,0,0" VerticalAlignment="Top" Width="103" FontSize="20" FontFamily="Humanst521 BT"/>
+        <TextBox x:Name="UBound" Background="#F4F4F4" VerticalContentAlignment="Center" IsEnabled="True" HorizontalAlignment="Left" Height="40" Margin="540,397,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="328" FontFamily="Humanst521 BT" FontSize="20"/>
+        <ComboBox x:Name="CmbTestClass" HorizontalAlignment="Left" Margin="540,180,0,0" VerticalAlignment="Top" Width="328" Height="40"/>
+        <ComboBox x:Name="CmbTestUnits" HorizontalAlignment="Left" Margin="540,291,0,0" VerticalAlignment="Top" Width="328" Height="40"/>
+        <Label Content="Test Name" HorizontalAlignment="Left" Margin="981,124,0,0" VerticalAlignment="Top" Width="103" FontSize="20" FontFamily="Humanst521 BT"/>
+        <TextBox x:Name="TxtTestName" Background="#F4F4F4" VerticalContentAlignment="Center" IsEnabled="True" HorizontalAlignment="Left" Height="40" Margin="981,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="328" FontFamily="Humanst521 BT" FontSize="20"/>
+        <Label Content="Rate" HorizontalAlignment="Left" Margin="981,245,0,0" VerticalAlignment="Top" Width="103" FontSize="20" FontFamily="Humanst521 BT"/>
+        <TextBox x:Name="TxtRate" Background="#F4F4F4" VerticalContentAlignment="Center" IsEnabled="True" HorizontalAlignment="Left" Height="40" Margin="981,290,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="328" FontFamily="Humanst521 BT" FontSize="20"/>
+        <Button x:Name="BtnCreate" Click="BtnCreate_Click" Foreground="#FFFFFF" Background="#428BCA" Content="CREATE" HorizontalAlignment="Left" Margin="27,535,0,0" VerticalAlignment="Top" Width="193" Height="45" FontFamily="Humanst521 BT" FontSize="20"/>
+        <Button x:Name="BtnReset" Click="BtnReset_Click" Foreground="#FFFFFF" Background="#428BCA" Content="RESET" HorizontalAlignment="Left" Margin="540,535,0,0" VerticalAlignment="Top" Width="193" Height="45" FontFamily="Humanst521 BT" FontSize="20"/>
+    </Grid>
+</UserControl>

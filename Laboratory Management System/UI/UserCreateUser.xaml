@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="Laboratory_Management_System.UI.UserCreateUser"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Laboratory_Management_System.UI"
+             mc:Ignorable="d"
+             Background="White" Height="645" Width="1550">
+    <Grid>
+        <Label Content="Create New User" Foreground="#FFFFFF" VerticalContentAlignment="Center" Background="#428BCA" Height="110" Width="1550" FontFamily="Humanst521 BT" FontSize="36" VerticalAlignment="Top"/>
+        
+
+    </Grid>
+</UserControl>
